@@ -38,15 +38,51 @@
     <body>
         <div class="app">
             <h3>basic bastard</h3>
-            <input id="title" type="text" placeholder="title">
-            <input id="author" type="text" value="jynn">
-            <input id="text" type="text" placeholder="text">
-            <input id="tags" type="text" placeholder="tags">
-            <input id="id" type="number">
-            <button id="send">Send</button>
-            <button id="delete">Delete</button>
-            <button id="view">View</button>
+            <table>
+                <tr>
+                    <td>
+                        <input id="title" type="text" placeholder="title">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="author" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="pbtn">p</button>
+                        <button id="abtn">a</button>
+                        <button id="imgbtn">img</button>
+                        <button id="stylebtn">style</button>
+                    </td>
 
+                </tr>
+                <tr>
+                    <td>
+                        <textarea rows="20" cols="35" id="text" placeholder="text"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="tags" type="text" placeholder="tags">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="id" type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="send">Send</button>
+                        <button id="delete">Delete</button>
+                        <button id="view">View</button>
+                        <button id="clear">Clear</button>
+                    </td>
+
+                </tr>
+            </table>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/config.js"></script>
